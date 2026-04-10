@@ -1,1 +1,17 @@
-# kuratayuina-portfolio
+-ポートフォリオサイト
+
+-概要
+WordPressを用いて制作したポートフォリオサイトです。
+UI/UXを意識し、見やすく使いやすい設計を行いました。
+
+-使用技術
+HTML / CSS / JavaScript / PHP / WordPress
+
+-工夫した点
+・レスポンシブ対応  
+・ナビゲーションの操作性向上  
+・ユーザー視点を意識した導線設計  
+
+-ファイル構成
+・static-site：表示確認用のHTMLファイル  
+・wordpress-theme：自作テーマファイル
