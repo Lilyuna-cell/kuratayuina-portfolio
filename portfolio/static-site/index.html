@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Lily no Oheya</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/26f9eb3f4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <div class="container">
+          <div class="top-header">
+            <img src="img/toplogo.png" alt="Lily no Oheyaロゴ" />
+            <!-- ナビゲーション（PC用） -->
+            <nav class="gnav">
+              <ul class="gnav-list">
+                <li class="gnav-item"><a href="#works">Work</a></li>
+                <li class="gnav-item"><a href="#skill">Skill</a></li>
+                <li class="gnav-item"><a href="#about">About</a></li>
+                <li class="gnav-item"><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+            <!-- SNS アイコン -->
+            <div class="sns-icons">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+          <!-- スマホ用メニューボタン -->
+          <div class="menu-bar">
+            <img src="img/logo-sp.png" alt="ロゴ" />
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+          </div>
+        </div>
+          <!-- スマホ用ナビゲーション -->
+          <nav id="nav-sp">
+            <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <img
+              src="img/cross.png"
+              alt="ナビゲーションを閉じる">
+            </button>
+            <ul>
+              <li>
+                <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                <img src="img/logo-sp.png" alt="トップページに戻る"></a>
+              </li>
+                <li class="menu"><a href="#works">Work</a></li>
+                <li class="menu"><a href="#skill">Skill</a></li>
+                <li class="menu"><a href="#about">About</a></li>
+                <li class="menu"><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="sns-icons-sp">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </nav>
+      </header>
+      <!-- /header -->
+
+      <main class="content">
+        <!-- mv -->
+        <div class="mv">
+          <div class="mv-container">
+            <img src="img/main-top.png" alt="英字新聞のようなメイン画像" />
+            <h1 class="mv-title">Lily no Oheya</h1>
+          </div>
+        </div>
+        <!-- /mv -->
+
+        <!-- works -->
+        <section class="works section" id="works">
+          <div class="container">
+            <h2 class="title">WORKS</h2>
+            <div class="works-list">
+              <a class="works-item" href="works-1.html">
+                <div class="works-img">
+                  <img src="img/works/html1.png" alt="html1" />
+                </div>
+                <p class="works-name">コーポレートサイト</p>
+                <p class="works-info">
+                  HTML/CSS/JavaScript/jQuery/レスポンシブ対応
+                </p>
+              </a>
+              <a class="works-item" href="works-2.html">
+                <div class="works-img">
+                  <img src="img/works/html2.png" alt="html2" />
+                </div>
+                <p class="works-name">プロフィールサイト</p>
+                <p class="works-info">HTML/CSS</p>
+              </a>
+              <a class="works-item" href="works-3.html">
+                <div class="works-img">
+                  <img src="img/works/wordpress1.png" alt="WordPress" />
+                </div>
+                <p class="works-name">美容室のHP</p>
+                <p class="works-info">WordPress</p>
+              </a>
+              <a class="works-item" href="works-4.html">
+                <div class="works-img">
+                  <img src="img/works/photoshop.png" alt="Photoshop" />
+                </div>
+                <p class="works-name">ITスクールのバナー</p>
+                <p class="works-info">Photoshop</p>
+              </a>
+              <a class="works-item" href="works-5.html">
+                <div class="works-img">
+                  <img src="img/works/xd.png" alt="AdobeXD" />
+                </div>
+                <p class="works-name">ITスクールのLP</p>
+                <p class="works-info">AdobeXD</p>
+              </a>
+              <a class="works-item" href="works-6.html">
+                <div class="works-img">
+                  <img src="img/works/wordpress2.png" alt="WordPress2" />
+                </div>
+                <p class="works-name">大学のHP</p>
+                <p class="works-info">WordPress/PHP</p>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- /works -->
+
+        <!-- skill -->
+        <section class="skill section" id="skill">
+          <div class="container">
+            <h2 class="title">SKILL</h2>
+            <div class="skill-list">
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img src="img/skills/html_icon_187944.png" alt="html" />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">HTML/CSS</h3>
+                  <p class="skill-text">
+                    レスポンシブ対応を含むWebページのコーディングや、デザイン再現性の高い実装が可能です。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img
+                    src="img/skills/social_wordpress_55.png"
+                    alt="wordpress"
+                  />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">WordPress</h3>
+                  <p class="skill-text">
+                    テーマのカスタマイズやオリジナルデザインの反映、プラグインによる機能拡張が行えます。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img
+                    src="img/skills/file_java_format_type_icon_134724.png"
+                    alt="javascript"
+                  />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">JavaScript</h3>
+                  <p class="skill-text">
+                    ページ内の動きを実装し、ユーザー操作に応じたインタラクティブなWeb表現を行えます。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img
+                    src="img/skills/adb-photoshop_icon-icons.com_50960.png"
+                    alt="photoshop"
+                  />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">Adobe Photoshop</h3>
+                  <p class="skill-text">
+                    写真のレタッチや合成、Webデザインに適したビジュアルの制作が行えます。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img
+                    src="img/skills/figma_black_logo_icon_147134.png"
+                    alt="figma"
+                  />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">Figma</h3>
+                  <p class="skill-text">
+                    コンセプトに沿ったUIデザインやプロトタイプの作成、チームでのデザイン共有ができます。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img">
+                  <img
+                    src="img/skills/language_php_icon_135453 (1).png"
+                    alt="php"
+                  />
+                </p>
+                <div class="skill-body">
+                  <h3 class="skill-name">PHP</h3>
+                  <p class="skill-text">
+                    データの受け渡しやフォーム処理、WordPressテーマへの動的機能の実装ができます。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /skill -->
+
+        <!-- about -->
+        <section class="about section" id="about">
+          <div class="container">
+            <h2 class="title">ABOUT</h2>
+            <div class="profile">
+              <p class="profile-img">
+                <img src="img/about-img.png" alt="about" />
+              </p>
+              <div class="profile-body">
+                <p>Lily/Yuina</p>
+                <p>
+                  &ensp;アイスランド在住大学生。2025年2月より、プログラミングスクールでWebサイト制作を中心に学んでいる。日本在住時はエアライン業界を志望していたが、アイスランドへの移住をきっかけに新しい環境でも自分らしく働けるスキルを身につけたいと思い、Webデザインを学び始める。北欧やヨーロッパの雰囲気を取り入れた、シンプルであたたかみのあるデザインを心がけている。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /about -->
+
+        <!-- contact -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <h2 class="title">CONTACT</h2>
+            <p class="lead">
+              お問い合わせは、こちらのフォーム<br
+                class="sp-only"
+              />またはメールにてお願いいたします。
+            </p>
+
+            <div class="main-form">
+              <div class="form-first">
+                <ul class="info-details">
+                  <li>
+                    <i class="fas fa-paper-plane"></i><span>Email: </span
+                    ><a href="mailto:10vest@lilynooheya.com"
+                      >10vest@lilynooheya.com</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-globe"></i><span>Website: </span
+                    ><a href="mailto:10vest@lilynooheya.com"
+                      >https://lilynooheya.com</a
+                    >
+                  </li>
+                </ul>
+                <ul class="sns-icons">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="form-sec">
+                <form action="#" method="POST">
+                  <h2 class="form-title">Send me a message</h2>
+                  <div class="form-fields">
+                    <div class="form-group">
+                      <input type="text" class="name" placeholder="Name" />
+                    </div>
+
+                    <div class="form-group">
+                      <input type="text" class="email" placeholder="Email" />
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="Subject"
+                        placeholder="Subject"
+                      />
+                    </div>
+
+                    <div class="form-group">
+                      <textarea
+                        name=" "
+                        id=" "
+                        placeholder="Write your message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <input
+                    type=
+                    value
+                    class
+                  />
+              </div>
+            </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- /contact -->
+        <div class="page-top">
+          <span class="mained"></span>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="copyright">&copy;Yuina Lily Kurata</div>
+      </footer>
+      <!-- /footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
