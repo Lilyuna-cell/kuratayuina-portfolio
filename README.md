@@ -14,3 +14,6 @@ HTML / CSS / JavaScript / PHP / WordPress
 ## ファイル構成
 ・static-site：表示確認用のHTMLファイル  
 ・wordpress-theme：自作テーマファイル
+
+## スクリーンショット
+![トップ画像](画像URL)
