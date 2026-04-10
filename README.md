@@ -16,4 +16,4 @@ HTML / CSS / JavaScript / PHP / WordPress
 ・wordpress-theme：自作テーマファイル
 
 ## スクリーンショット
-![トップ画像](画像URL)
+![トップ画像](https://github.com/Lilyuna-cell/kuratayuina-portfolio/blob/main/lilynooheya-portfolio-screenshot.png)
